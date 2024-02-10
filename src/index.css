@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lightcyan: hsl(193, 38%, 86%);
+  --neongreen: hsl(150, 100%, 66%);
+  --grayishblue: hsl(217, 19%, 38%);
+  --darkgrayishblue: hsl(217, 19%, 24%);
+  --darkblue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  min-height: 100svh;
+  background: var(--darkblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+img {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,57 @@
+.advice__container {
+  width: 60%;
+  margin: 0 auto;
+  background: var(--darkgrayishblue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.advice__title {
+  font-size: 15px;
+  color: var(--neongreen);
+  letter-spacing: 4px;
+}
+
+.advice__statement {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--lightcyan);
+}
+
+.advice__pattern {
+  padding-bottom: 1rem;
+}
+
+.advice__btn { 
+  position: absolute;
+  bottom: -25px;
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: var(--neongreen);
+  cursor: pointer;
+  border: 0;
+}
+
+.advice__btn:hover {
+  box-shadow: 0 0 25px 4px var(--neongreen);
+}
+
+@media screen and (max-width: 768px) {
+  .advice__container {
+    width: 90%;
+  }
+
+  .advice__statement {
+    width: 90%;
+  }
+
+  .advice__btn {
+    padding: 1.2rem;
+  }
+}
